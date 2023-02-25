@@ -10,14 +10,15 @@ const Header = () => {
 };
 
 const styles = StyleSheet.create({
-  header: {backgroundColor: '#3B82F6'},
   texto: {
     textAlign: 'center',
-    paddingVertical: 30,
+    paddingVertical: 20,
+    marginTop: 20,
     color: '#FFF',
     fontSize: 30,
     textTransform: 'uppercase',
     fontWeight: 'bold',
+    paddingTop: 10,
   },
 });
 
